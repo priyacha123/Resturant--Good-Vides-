@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courgette&family=DynaPuff:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Oldenburg&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Caveat:wght@400..700&family=Courgette&family=DynaPuff:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Oldenburg&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    margin: 0;
+    padding: 0px;
+}
+nav{
+    margin: 0 0 2px 0;
+    display: flex;
+    flex-direction:row;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(193, 143, 240);
+}
+.Logo{
+    display: flex;
+    flex-direction: row;
+}
+.Logo img {
+    height: 75px;
+    padding: 5px 0 0 28px;
+}
+.Logo a{
+    text-decoration: underline;
+    text-align: center;
+    padding: 9px 0 ;
+    color:rgb(137, 22, 91);
+    width: 325px;
+    font-size: 39px;
+    font-style: italic;
+    font-family: "Playwrite GB S", cursive;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 11px 0;
+}
+div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0 0 542px;
+}
+div ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin: 20px;
+    background-color: bisque;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+div ul li a{
+    text-decoration: none;
+}
+div ul li a:hover{
+    cursor: pointer;
+    color: black;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.homepage {
+    width: 47vw;
+}
+.homepage img {
+    width: 47vw;
+    background-size:cover;
+    background-position:left;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+.content {
+    margin: 20px;
+    width: 90vw;
+    height: 75vh;
+    background-color: rgb(208, 202, 202);
+    border-radius: 25px;
+    text-align: center;
+    padding: 48px 70px;
+}
+
+.content h3{
+    font-size: 32px;
+    padding: 20px;
+    font-family: "Playwrite GB S", serif;
+}
+.content p{
+    font-size: 18px;
+    font-family: "Courgette", serif;
+
+}
+
+.container{
+    background-color: beige;
+    color: #000;
+    height: 270px;
+    padding: 50px;
+}
+.container h3{
+    padding: 10px 0 0 0;
+    font-family: "DynaPuff", system-ui;
+    font-size: 34px;
+}
+.container p {
+    padding: 20px 0 0 0;
+    font-family: "Playwrite GB S", serif;
+    font-size: 21px;
+}
+.btn-1{
+    width: 80px;
+    height: 30px;
+    border: 2px gray solid;
+    border-radius: 25px;
+    margin: 25px 0;
+}
+.btn-1:hover{
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    background-color:rgb(22, 160, 144);
+    height: 30vh;
+    width: 100vw;
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+}
+.last-1{
+    margin: 65px 15px 50px 10px;
+    text-decoration: none;
+}
+.last-1 a{
+    font-size: 17px;
+    text-decoration: none;
+}
+.last-2{
+    margin: 65px 15px 50px 15px;
+}
+.last-3{
+    margin: 60px 15px 50px 15px;
+}
+.last-4{
+    border-left: 2px solid white;
+    padding: 0 0 0 15px;
+    margin: 60px 15px 50px 15px; 
+}
+.last-5{
+    margin: 60px 15px 50px 15px;
+    text-decoration: none;
+}
+.last-5 a{
+    text-decoration: none;
+    font-size: 17px;
+}
